@@ -140,4 +140,16 @@ $(window).load(function() {
     }
   });
 
+  $('#testimonialSlider').flexslider({
+    animation: "slide",
+    directionNav: false,
+    controlNav: true,
+    touch: true,
+    pauseOnHover: true,
+    controlNav: false, 
+    start: function() {
+      $.waypoints('refresh');
+    }
+  });
+
 });
