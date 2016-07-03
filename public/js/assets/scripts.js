@@ -42,8 +42,41 @@ $(window).load(function() {
   $('.nav_slide_button').click(function() {
     $('.pull').slideToggle();
   });
-
 });
+
+        /***************** Nav Transformicon ******************/
+
+        /* When user clicks the Icon */
+        $(".nav-toggle").click(function() {
+            $(this).toggleClass("active");
+            $(".navigation").toggleClass("open");
+            event.preventDefault();
+        });
+
+        /* When user clicks a link */
+        $(".overlay ul li a").click(function() {
+            $(".nav-toggle").toggleClass("active");
+            $(".navigation").toggleClass("open");
+        });
+
+        /* When user clicks outside */
+        $(".overlay").click(function() {
+            $(".nav-toggle").toggleClass("active");
+            $(".navigation").toggleClass("open");
+        });
+        /***************** Header BG Scroll ******************/
+
+        $(function() {
+            $(window).scroll(function() {
+                var scroll = $(window).scrollTop();
+
+                if (scroll >= 40) {
+                    $(".fixed-header").addClass("hasBg header-sml");
+                } else {
+                    $(".fixed-header").removeClass("hasBg header-sml");
+                }
+            });
+        });
 
 /***************** Smooth Scrolling ******************/
 
@@ -67,9 +100,9 @@ $(function() {
 
 /***************** Nav Transformicon ******************/
 
-document.querySelector("#nav-toggle").addEventListener("click", function() {
-  this.classList.toggle("active");
-});
+// document.querySelector("#nav-toggle").addEventListener("click", function() {
+//   this.classList.toggle("active");
+// });
 
 /***************** Overlays ******************/
 
