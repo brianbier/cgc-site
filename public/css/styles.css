@@ -1215,3 +1215,28 @@ Waypoints
     /*background-position: 200px 10px;*/
     height: 100%;
 }
+
+
+/*================== Drop Down Menu ====================*/
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.dropdown-menu {
+    background-color: #242830;
+    margin-top: -1px;
+    color: #fff;
+    min-width: 100%;
+    
+}
+.dropdown-menu>li>a{
+    color:#fff;
+    border-bottom: 1px dotted #fff;
+    display: block;
+    padding:10px;
+}
+
+
+
+
+
+
