@@ -33,7 +33,7 @@
 
 @media screen and (max-width: 1024px) {
     .wp3 {
-        background-position: 50px 0;
+        /*background-position: 50px 0;*/
     }
     .swag {
         background-attachment: scroll;
@@ -46,7 +46,7 @@
 
 @media screen and (max-width: 1380px) {
     .wp3 {
-        background-position: 50px 0;
+        /*background-position: 50px 0;*/
     }
     input[type="text"], input[type="email"], textarea{
       width: 60%;
