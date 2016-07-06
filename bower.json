@@ -3,10 +3,9 @@
   "version": "1.0.0",
   "dependencies": {
     "bootstrap": "latest",
-    "angular": "latest",
-    "angular-route": "latest",
     "animate.css": "^3.5.2",
-    "waypoints": "^4.0.0",
-    "modernizr": "^3.3.1"
+    "modernizr": "^3.3.1",
+    "angular": "^1.5.7",
+    "angular-route": "^1.5.7"
   }
 }
