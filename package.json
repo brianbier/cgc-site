@@ -3,6 +3,9 @@
   "main": "server.js",
   "dependencies": {
     "express": "~4.5.1",
-    "prerender-node": "latest"
+    "prerender-node": "latest",
+    "nodemailer": "^2.1.0",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "body-parser": "^1.14.2"
   }
 }

@@ -302,10 +302,12 @@
             </div>
             <div class="row">
               <div class="col-md-12">
-              <form action="#">
-                <input pattern=".{4,11}" type="text" name="name" value="" placeholder="Full Name" required title="4 character minimum"><br />
-                <input pattern=".{4,}" type="email" name="_replyto" placeholder="Your email address" required title="4 character minimum"><br />
-                <textarea type='text' name="message" placeholder="Send me your message..." maxlength="300" minlength="5" required></textarea><br />
+                <div ng-cloak ng-if="!loading && serverMessage"><i class="fa fa-check"></i> {{serverMessage}}</div>
+              </div>
+              <form ng-submit="send(mail)">
+                <input pattern=".{4,25}" type="text" name="name" value="" placeholder="Full Name" required title="4 character minimum" ng-model="mail.name"><br />
+                <input pattern=".{4,}" type="email" name="_replyto" placeholder="Your email address" required title="4 character minimum" ng-model="mail.email"><br />
+                <textarea type='text' name="message" placeholder="Send me your message..." maxlength="300" minlength="5" required ng-model="mail.message"></textarea><br />
                 <input type="text" name="_gotcha" style="display:none" />
                 <input type="submit" name="submit" value="Send">
               </form>
@@ -338,13 +340,12 @@
     <script src="js/assets/jquery.fancybox.js"></script>
     <script src="js/assets/jquery.fancybox-media.js"></script>
 
-
     <script src="libs/angular/angular.min.js"></script>
-    <script src="libs/angular-route/angular-route.min.js"></script>
+    <script src="libs/angular-route/angular-route.js"></script>
 
     <!-- ANGULAR CUSTOM -->
     <script src="js/app.js"></script>
-    <script src="js/controllers/MainController.js"></script>
     <script src="js/appRoutes.js"></script>
+    <script src="js/controllers/MainController.js"></script>
 </body>
 </html>
