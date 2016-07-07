@@ -16,336 +16,442 @@
   <link href="css/queries.css" rel="stylesheet"> 
   <link href="libs/animate.css/animate.min.css" rel="stylesheet"> 
   <link rel="stylesheet" href="css/jquery.fancybox.css" media="screen" />
-<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
 </head>
-      <body id="top">
-        <header id="home">
-          <nav>
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">
-                  <nav class="pull">
-                    <ul class="top-nav">
-                      <li><a href="#intro">Home<span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
-                      <li class="dropdown">
-                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">Services <span class="indicator"><i class="fa fa-caret-down"></i></span></a>
-                        <ul class="dropdown-menu top-nav">
-                          <li><a href="#services">All <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
-                          <li><a href="#">Individual <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
-                          <li><a href="#">Couples <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
-                          <li><a href="#">Family <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
-                          <li><a href="#">Premarital <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
-                          <li><a href="#">Anger Management <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
-                          <li><a href="#">Grief &amp; Loss/PTSD <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
-                        </ul>
-                      </li>
-                      <li><a href="#about">About <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
-                      <li><a href="#contact">Contact <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
-                      <li class="dropdown">
-                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">Media <span class="indicator"><i class="fa fa-caret-down"></i></span></a>
-                        <ul class="dropdown-menu top-nav">
-                          <li><a class="fancybox-media fancybox.iframe" href="https://www.youtube.com/watch?v=WC-isYWovG4">Youtube<span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
-                          <li><a href="img/sahar_newspaper.pdf"> Newspaper Article<span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
-                        </ul>
-                      </li>
-                      <li><a href="mailto:sahar@cgctherapy.com">email: sahar@cgctherapy.com <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
-                      <li><a href="tel:212.203.2758">phone: 212-203-2758<span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
-                    </ul>
-                  </nav>
-                </div>
-              </div>
-            </div>
-          </nav>
-          <section class="hero" id="hero">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-12 text-right navicon">
-                  <a id="nav-toggle" class="nav_slide_button" href="#"><span></span></a>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-8 col-md-offset-2 text-center inner">
-                  <a href="#"><img id="logo" class="animated fadeInDown delay-05s" src="img/_CGC-logo.png" alt="Common Ground Counseling Logo"></a>
-                  <p class="animated fadeInUp delay-05s">Provinding the highest quality psychothery service to <em>Individuals, Couples,</em> and <em>Families</em></p>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-6 col-md-offset-3 text-center">
-                  <a href="#" class="learn-more-btn">Schedule an Appointment</a>
-                </div>
-<!--                 <div class="col-md-6 col-md-offset-3 text-center">
-                  <a href="#intro" class="down-arrow-btn"><i class="fa fa-chevron-down"></i></a>
-                </div> -->
-              </div>
-            </div>
-          </section>
-        </header>
-        <section class="intro text-center section-padding" id="intro">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-8 col-md-offset-2 wp1">
-                <h1 class="arrow">Mission</h1>
-                <p>To provide the highest quality of psychotherapy services to Individuals, Couples, and Families in the field of Marriage and Family Therapy (MFT). And to support people not on individual bases, but rather, as people in the context of their relationships. In this common space anything is possible. Thus, I believe in therapy. I believe that healing manifests within relationships. A therapeutic relationship is just another form of relationship. As a result, together, we unlock the barriers you have built against yourself.
-                </p>
-              </div>
-            </div>
+<body id="top">
+  <header id="home">
+    <nav>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">
+            <nav class="pull">
+              <ul class="top-nav">
+                <li><a href="#intro">Home<span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
+                <li class="dropdown">
+                  <a data-toggle="dropdown" class="dropdown-toggle" href="#">Services <span class="indicator"><i class="fa fa-caret-down"></i></span></a>
+                  <ul class="dropdown-menu top-nav">
+                    <li><a href="#services">All <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
+                    <li><a href="#">Individual <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
+                    <li><a href="#">Couples <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
+                    <li><a href="#">Family <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
+                    <li><a href="#">Premarital <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
+                    <li><a href="#">Anger Management <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
+                    <li><a href="#">Grief &amp; Loss/PTSD <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
+                  </ul>
+                </li>
+                <li><a href="#about">About <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
+                <li><a href="#contact">Contact <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
+                <li class="dropdown">
+                  <a data-toggle="dropdown" class="dropdown-toggle" href="#">Media <span class="indicator"><i class="fa fa-caret-down"></i></span></a>
+                  <ul class="dropdown-menu top-nav">
+                    <li><a class="fancybox-media fancybox.iframe" href="https://www.youtube.com/watch?v=WC-isYWovG4">Youtube<span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
+                    <li><a href="img/sahar_newspaper.pdf"> Newspaper Article<span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
+                  </ul>
+                </li>
+                <li><a href="mailto:sahar@cgctherapy.com">email: sahar@cgctherapy.com <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
+                <li><a href="tel:212.203.2758">phone: 212-203-2758<span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
+              </ul>
+            </nav>
           </div>
-        </section>
- <section class="team text-center section-padding" id="services">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
-                <h1 class="arrow">Services</h1>
-              </div>
-            </div>
-            <div class="row">
-              <div class="team-wrapper">
-                <div id="teamSlider">
-                  <ul class="slides">
-                    <li>
-                      <div class="col-md-4 wp5">
-                        <img src="img/couples.png" alt="Individual Therapy">
-                        <h2>Individual</h2>
-                        <p> At CGC, we strive to facilitate therapeutic services that will support your self-awareness and self-differentiation. More importantly, we offer strategic solutions to help you enhance your quality of life. Together we will explore your thoughts, feelings, and relational patterns (in the past and present as deemed appropriate), and develop new strategies so you can live authentically.</p>
-                        <div class="social">
-                          <ul class="social-buttons">
-                            <li><a href="#" class="social-btn"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#" class="social-btn"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#" class="social-btn"><i class="fa fa-google-plus" ></i></a></li>
-                          </ul>
-                        </div>
-                      </div>
-                      
-                      <div class="col-md-4 wp5 delay-05s">
-                        <img src="img/couples.png" alt="Couples Therapy">
-                        <h2>Couples</h2>
-                        <p>Research shows that an adult-romantic attachment style begins during the infant-caregiver years. Furthermore, research illustrates that early attachment year’s shape the adult-romantic-relationship (Mikulincer &amp; Goodman, 2006). As a result, at CGC, we provide counseling services that assess the strengths and challenges of your relationship. </p>
-                        <div class="social">
-                          <ul class="social-buttons">
-                            <li><a href="#" class="social-btn"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#" class="social-btn"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#" class="social-btn"><i class="fa fa-google-plus" ></i></a></li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div class="col-md-4 wp5 delay-1s">
-                        <img src="img/couples.png" alt="Family Therapy">
-                        <h2>Family</h2>
-                        <p>Family members are interconnected; like a web, they often affect one another in profound ways. Research has shown that, when difficulties arise between family members, family therapy can be effective in reestablishing roles, boundaries, and healthy communication skills. The degree of supervision and independence children need may vary according to their personalities, developmental stage, and environment. </p>
-                        <div class="social">
-                          <ul class="social-buttons">
-                            <li><a href="#" class="social-btn"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#" class="social-btn"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#" class="social-btn"><i class="fa fa-google-plus" ></i></a></li>
-                          </ul>
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="col-md-4 wp5">
-                        <img src="img/couples.png" alt="Premarital Therapy">
-                        <h2>Premarital</h2>
-                        <p>Premarital counseling is critical for couples who plan to get married, but have reservations. Having a clear direction about the future will help decrease anxiety. Therefore, at CGC, we will explore your attachment style, your communication style, and your life goals and expectations. The therapist will use exploratory process questions to help you and your partner understand your finances, sexual intimacy, child rearing, wedding plans, and other relevant concerns associated with marriage. </p>
-                        <div class="social">
-                          <ul class="social-buttons">
-                            <li><a href="#" class="social-btn"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#" class="social-btn"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#" class="social-btn"><i class="fa fa-google-plus" ></i></a></li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div class="col-md-4 wp5 delay-05s">
-                        <img src="img/couples.png" alt="Anger Management Therapy">
-                        <h2>Anger Management</h2>
-                        <p>Research shows that anger influences physical health. Anger can cause ailments, such as heart disease, physical tension, and adversely affect your immune system. At CGC, we work with you to decrease your anger, while enhancing self-expression in a meaningful manner. Remember, anger is just an emotion, but if you don’t understand the source of your anger you can disrupt your relationships (familial relationships, romantic partnerships, and friendships), and professional aspirations.</p>
-                        <div class="social">
-                          <ul class="social-buttons">
-                            <li><a href="#" class="social-btn"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#" class="social-btn"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#" class="social-btn"><i class="fa fa-google-plus" ></i></a></li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div class="col-md-4 wp5 delay-1s">
-                        <img src="img/couples.png" alt="Grief and Loss Therapy">
-                        <h2>Grief &amp; Loss/ PTSD</h2>
-                        <p>Grief and loss is not just about the death of a loved one; rather, it is about life. Every day, people grieve over a job loss, an illness, a relationship, a miscarriage. Post-Traumatic Stress Disorder (PTSD) is a mental health disorder that is triggered by experiencing or witnessing a particularly traumatic event. No one is immune to the impact of trauma. At CGC, a trauma-informed care stance is promoted so everyone can feel safe, accepted and understood without judgment. Hence, at CGC, every person holds the strength, intuition and ability to heal from suffering. You are not alone. We will get through this together.</p>
-                        <div class="social">
-                          <ul class="social-buttons">
-                            <li><a href="#" class="social-btn"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#" class="social-btn"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#" class="social-btn"><i class="fa fa-google-plus" ></i></a></li>
-                          </ul>
-                        </div>
-                      </div>
-                    </li>
+        </div>
+      </div>
+    </nav>
+    <section class="hero" id="hero">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-right navicon">
+            <a id="nav-toggle" class="nav_slide_button" href="#"><span></span></a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 text-center inner">
+            <a href="#"><img id="logo" class="animated fadeInDown delay-05s" src="img/_CGC-logo.png" alt="Common Ground Counseling Logo"></a>
+            <p class="animated fadeInUp delay-05s">Provinding the highest quality psychothery service to <em>Individuals, Couples,</em> and <em>Families</em></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3 text-center">
+            <a href="#" class="learn-more-btn">Schedule an Appointment</a>
+          </div>
+<!--                 <div class="col-md-6 col-md-offset-3 text-center">
+<a href="#intro" class="down-arrow-btn"><i class="fa fa-chevron-down"></i></a>
+</div> -->
+</div>
+</div>
+</section>
+</header>
+<section class="intro text-center section-padding" id="intro">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2 wp1">
+        <h1 class="arrow">Mission</h1>
+        <p>To provide the highest quality of psychotherapy services to Individuals, Couples, and Families in the field of Marriage and Family Therapy (MFT). And to support people not on individual bases, but rather, as people in the context of their relationships. In this common space anything is possible. Thus, I believe in therapy. I believe that healing manifests within relationships. A therapeutic relationship is just another form of relationship. As a result, together, we unlock the barriers you have built against yourself.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="team text-center section-padding slider" id="services">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1 class="arrow">Services</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="team-wrapper">
+        <div id="teamSlider">
+          <ul class="slides">
+            <li>
+              <div class="col-md-4 wp5">
+                <img src="img/couples.png" alt="Individual Therapy">
+                <h2>Individual</h2>
+                <p> At CGC, we strive to facilitate therapeutic services that will support your self-awareness and self-differentiation. More importantly, we offer strategic solutions to help you enhance your quality of life. Together we will explore your thoughts, feelings, and relational patterns (in the past and present as deemed appropriate), and develop new strategies so you can live authentically.</p>
+                <div class="social">
+                  <ul class="social-buttons">
+                    <li><a href="#" class="social-btn"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#" class="social-btn"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#" class="social-btn"><i class="fa fa-google-plus" ></i></a></li>
                   </ul>
                 </div>
               </div>
-            </div>
-          </div>
-        </section>
-        <section class="text-center" id="responsive">
-          <div class="container-fluid nopadding responsive-services">
-            <div class="wrapper">
-              <div class="iphone">
-                <div class="wp3"></div>
-              </div>
-              <div class="fluid-white"></div>
-            </div>
-            <div class="container designs">
-              <div class="row">
-                <div class="col-md-5 col-md-offset-7">
-                  <div id="servicesSlider">
-                    <ul class="slides">
-                      <li>
-                        <h1 class="arrow">Theoretical Perspective</h1>
-                        <p><strong>Systems Approach:</strong>  In the field of MFT, the relational system fosters change. Biologist Bertalanffy, commonly recognized for the development of General Systems Theory, described a relational system as a collection of inter-related elements that encompass a unified whole (1968). In layman’s term, I utilize systems theory to discern the entirety of a person’s system; including, but not limited to:  gender, culture, socioeconomic status, sexual orientation, age, and other relevant ism’s to foster your path.<!-- <br><strong>Theoretical Modalities:</strong> From a systems perspective, I employ a variety of theoretical modalities to promote healing (please refer to the resource page for a better understanding of my modalities). Therefore, I use an eclectic approach at appropriate stages of therapy to foster change. -->
-                        </p>
-                      </li>
-                      <li>
-                        <h1 class="arrow">My Belief System</h1>
-                        <p>I dove into the field of mental health in 2000 because I felt a great desire to serve. Something happens when people invite you to witness their life’s stories. In this common space anything is possible. Thus, I believe in therapy.I believe that healing manifests within relationships. A therapeutic relationship is just another form of relationship. As a result, together, we unlock the barriers you have built against yourself. A mystical poet once said, “Your task is not to seek for love, but merely to seek and find all the barriers that you have built against it.” ― Rumi
-                        </p>
-                      </li>
-                    </ul>
-                  </div>
+
+              <div class="col-md-4 wp5 delay-05s">
+                <img src="img/couples.png" alt="Couples Therapy">
+                <h2>Couples</h2>
+                <p>Research shows that an adult-romantic attachment style begins during the infant-caregiver years. Furthermore, research illustrates that early attachment year’s shape the adult-romantic-relationship (Mikulincer &amp; Goodman, 2006). As a result, at CGC, we provide counseling services that assess the strengths and challenges of your relationship. </p>
+                <div class="social">
+                  <ul class="social-buttons">
+                    <li><a href="#" class="social-btn"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#" class="social-btn"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#" class="social-btn"><i class="fa fa-google-plus" ></i></a></li>
+                  </ul>
                 </div>
               </div>
-            </div>
-          </div>
-        </section>
-        <section class="swag text-center">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-8 col-md-offset-2">
-                <div id="testimonialSlider">
-                    <ul class="slides">
-                      <li>
-                       <h1><i class="fa fa-quote-left"></i> In the field of MFT, the relational system fosters change. Biologist Bertalanffy. <i class="fa fa-quote-right"></i>
-                       <span>-<em>Emily</em></span>
-                        </h1>
-                      </li>
-                      <li>
-                       <h1><i class="fa fa-quote-left"></i> I believe that healing manifests within relationships. <i class="fa fa-quote-right"></i>
-                       <span>-<em>John</em></span>
-                        </h1>
-                      </li>
-                    </ul>
-                  </div>
+              <div class="col-md-4 wp5 delay-1s">
+                <img src="img/couples.png" alt="Family Therapy">
+                <h2>Family</h2>
+                <p>Family members are interconnected; like a web, they often affect one another in profound ways. Research has shown that, when difficulties arise between family members, family therapy can be effective in reestablishing roles, boundaries, and healthy communication skills. The degree of supervision and independence children need may vary according to their personalities, developmental stage, and environment. </p>
+                <div class="social">
+                  <ul class="social-buttons">
+                    <li><a href="#" class="social-btn"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#" class="social-btn"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#" class="social-btn"><i class="fa fa-google-plus" ></i></a></li>
+                  </ul>
+                </div>
               </div>
-            </div>
-          </div>
-        </section>
-        <section class="intro section-padding" id="about">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-8 col-md-offset-2 wp2">
-                <h1 class="arrow text-center">About</h1>
-                <p><a class="fancybox fancybox.image" href="img/sahar-khoshakhlagh.jpg" data-fancybox-group="gallery" title="Dr. Sahar Khoshakhlagh, Psy.D. "><img class="personal-image" src="img/sahar-khoshakhlagh.jpg" alt="Sahar khoshakhlagh"></a>Dr. Sahar Khoshakhlagh, Psy.D., LMFT (Dr. K or Sahar) is the founder of Common Ground Counseling Marriage &amp;Family Therapy, PLLC (also known as CGC). Dr. K was licensed as a Marriage and Family Therapist in 2009 and  established CGC as a private psychotherapy practice in New York City in 2010. In addition to her private practice, Dr. K currently oversees a large 150 bed- 24 hour, supervised, congregate facility providing psychiatric rehabilitation services to individuals with a wide range of mental health issues in downtown Brooklyn.</p>
-                <p>Her pursuit in the filed of Mental Health began with an aspiration of a Bachelor of Arts degree in Psychology with a minor in Peace Studies from California State University, Fullerton. Fueled by her passion, Dr. K  earned a Master of Arts degree in Applied Psychology from New York University (NYU). Discovering a unique interest in relational systems, Dr. K. furthered her education in Marital and Family Therapy; earning another Master of Arts degree in 2005 and a Doctorate of Psychology in 2013 from the California School of Professional Psychology (CSPP).</p>
-                <p>Having a keen interest in intimate relationships, Dr. K wrote her dissertation on Adult Attachment as a Predictor of Intimate Relationships and Sexual Behavior. Dr. K presented her dissertation at the National Council on Family Relations Conference in 2013 and again at the American Association for Marriage and Family Therapy Conference in 2014. Furthermore, in 2014, Dr. K earned an Honorary Citation from the Office of the President of the Borough of Brooklyn for Dr. K’s assistance in the implementation of Trauma-Informed Care. Trauma-Informed Care (TIC) is an organizational framework that involves understanding, recognizing, and responding to the effects of all types of trauma. Currently, Dr. K is collaborating with the New York City Communities  for Crisis Intervention Teams to re-build a positive relationship between the NYPD and people with mental health disabilities.
+            </li>
+            <li>
+              <div class="col-md-4 wp5">
+                <img src="img/couples.png" alt="Premarital Therapy">
+                <h2>Premarital</h2>
+                <p>Premarital counseling is critical for couples who plan to get married, but have reservations. Having a clear direction about the future will help decrease anxiety. Therefore, at CGC, we will explore your attachment style, your communication style, and your life goals and expectations. The therapist will use exploratory process questions to help you and your partner understand your finances, sexual intimacy, child rearing, wedding plans, and other relevant concerns associated with marriage. </p>
+                <div class="social">
+                  <ul class="social-buttons">
+                    <li><a href="#" class="social-btn"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#" class="social-btn"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#" class="social-btn"><i class="fa fa-google-plus" ></i></a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-4 wp5 delay-05s">
+                <img src="img/couples.png" alt="Anger Management Therapy">
+                <h2>Anger Management</h2>
+                <p>Research shows that anger influences physical health. Anger can cause ailments, such as heart disease, physical tension, and adversely affect your immune system. At CGC, we work with you to decrease your anger, while enhancing self-expression in a meaningful manner. Remember, anger is just an emotion, but if you don’t understand the source of your anger you can disrupt your relationships (familial relationships, romantic partnerships, and friendships), and professional aspirations.</p>
+                <div class="social">
+                  <ul class="social-buttons">
+                    <li><a href="#" class="social-btn"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#" class="social-btn"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#" class="social-btn"><i class="fa fa-google-plus" ></i></a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-4 wp5 delay-1s">
+                <img src="img/couples.png" alt="Grief and Loss Therapy">
+                <h2>Grief &amp; Loss/ PTSD</h2>
+                <p>Grief and loss is not just about the death of a loved one; rather, it is about life. Every day, people grieve over a job loss, an illness, a relationship, a miscarriage. Post-Traumatic Stress Disorder (PTSD) is a mental health disorder that is triggered by experiencing or witnessing a particularly traumatic event. No one is immune to the impact of trauma. At CGC, a trauma-informed care stance is promoted so everyone can feel safe, accepted and understood without judgment. Hence, at CGC, every person holds the strength, intuition and ability to heal from suffering. You are not alone. We will get through this together.</p>
+                <div class="social">
+                  <ul class="social-buttons">
+                    <li><a href="#" class="social-btn"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#" class="social-btn"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#" class="social-btn"><i class="fa fa-google-plus" ></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="team text-center section-padding slider-mobile" id="services">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1 class="arrow">Services</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="team-wrapper">
+        <div id="mobileTeamSlider">
+          <ul class="slides">
+            <li>
+              <div class="col-md-4 wp5">
+                <img src="img/couples.png" alt="Individual Therapy">
+                <h2>Individual</h2>
+                <p> At CGC, we strive to facilitate therapeutic services that will support your self-awareness and self-differentiation. More importantly, we offer strategic solutions to help you enhance your quality of life. Together we will explore your thoughts, feelings, and relational patterns (in the past and present as deemed appropriate), and develop new strategies so you can live authentically.</p>
+                <div class="social">
+                  <ul class="social-buttons">
+                    <li><a href="#" class="social-btn"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#" class="social-btn"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#" class="social-btn"><i class="fa fa-google-plus" ></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="col-md-4 wp5 delay-05s">
+                <img src="img/couples.png" alt="Couples Therapy">
+                <h2>Couples</h2>
+                <p>Research shows that an adult-romantic attachment style begins during the infant-caregiver years. Furthermore, research illustrates that early attachment year’s shape the adult-romantic-relationship (Mikulincer &amp; Goodman, 2006). As a result, at CGC, we provide counseling services that assess the strengths and challenges of your relationship. </p>
+                <div class="social">
+                  <ul class="social-buttons">
+                    <li><a href="#" class="social-btn"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#" class="social-btn"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#" class="social-btn"><i class="fa fa-google-plus" ></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="col-md-4 wp5 delay-1s">
+                <img src="img/couples.png" alt="Family Therapy">
+                <h2>Family</h2>
+                <p>Family members are interconnected; like a web, they often affect one another in profound ways. Research has shown that, when difficulties arise between family members, family therapy can be effective in reestablishing roles, boundaries, and healthy communication skills. The degree of supervision and independence children need may vary according to their personalities, developmental stage, and environment. </p>
+                <div class="social">
+                  <ul class="social-buttons">
+                    <li><a href="#" class="social-btn"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#" class="social-btn"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#" class="social-btn"><i class="fa fa-google-plus" ></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="col-md-4 wp5">
+                <img src="img/couples.png" alt="Premarital Therapy">
+                <h2>Premarital</h2>
+                <p>Premarital counseling is critical for couples who plan to get married, but have reservations. Having a clear direction about the future will help decrease anxiety. Therefore, at CGC, we will explore your attachment style, your communication style, and your life goals and expectations. The therapist will use exploratory process questions to help you and your partner understand your finances, sexual intimacy, child rearing, wedding plans, and other relevant concerns associated with marriage. </p>
+                <div class="social">
+                  <ul class="social-buttons">
+                    <li><a href="#" class="social-btn"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#" class="social-btn"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#" class="social-btn"><i class="fa fa-google-plus" ></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="col-md-4 wp5 delay-05s">
+                <img src="img/couples.png" alt="Anger Management Therapy">
+                <h2>Anger Management</h2>
+                <p>Research shows that anger influences physical health. Anger can cause ailments, such as heart disease, physical tension, and adversely affect your immune system. At CGC, we work with you to decrease your anger, while enhancing self-expression in a meaningful manner. Remember, anger is just an emotion, but if you don’t understand the source of your anger you can disrupt your relationships (familial relationships, romantic partnerships, and friendships), and professional aspirations.</p>
+                <div class="social">
+                  <ul class="social-buttons">
+                    <li><a href="#" class="social-btn"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#" class="social-btn"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#" class="social-btn"><i class="fa fa-google-plus" ></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="col-md-4 wp5 delay-1s">
+                <img src="img/couples.png" alt="Grief and Loss Therapy">
+                <h2>Grief &amp; Loss/ PTSD</h2>
+                <p>Grief and loss is not just about the death of a loved one; rather, it is about life. Every day, people grieve over a job loss, an illness, a relationship, a miscarriage. Post-Traumatic Stress Disorder (PTSD) is a mental health disorder that is triggered by experiencing or witnessing a particularly traumatic event. No one is immune to the impact of trauma. At CGC, a trauma-informed care stance is promoted so everyone can feel safe, accepted and understood without judgment. Hence, at CGC, every person holds the strength, intuition and ability to heal from suffering. You are not alone. We will get through this together.</p>
+                <div class="social">
+                  <ul class="social-buttons">
+                    <li><a href="#" class="social-btn"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#" class="social-btn"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#" class="social-btn"><i class="fa fa-google-plus" ></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="text-center" id="responsive">
+  <div class="container-fluid nopadding responsive-services">
+    <div class="wrapper">
+      <div class="iphone">
+        <div class="wp3"></div>
+      </div>
+      <div class="fluid-white"></div>
+    </div>
+    <div class="container designs">
+      <div class="row">
+        <div class="col-md-5 col-md-offset-7">
+          <div id="servicesSlider">
+            <ul class="slides">
+              <li>
+                <h1 class="arrow">Theoretical Perspective</h1>
+                <p><strong>Systems Approach:</strong>  In the field of MFT, the relational system fosters change. Biologist Bertalanffy, commonly recognized for the development of General Systems Theory, described a relational system as a collection of inter-related elements that encompass a unified whole (1968). In layman’s term, I utilize systems theory to discern the entirety of a person’s system; including, but not limited to:  gender, culture, socioeconomic status, sexual orientation, age, and other relevant ism’s to foster your path.<!-- <br><strong>Theoretical Modalities:</strong> From a systems perspective, I employ a variety of theoretical modalities to promote healing (please refer to the resource page for a better understanding of my modalities). Therefore, I use an eclectic approach at appropriate stages of therapy to foster change. -->
                 </p>
-              </div>
-            </div>
+              </li>
+              <li>
+                <h1 class="arrow">My Belief System</h1>
+                <p>I dove into the field of mental health in 2000 because I felt a great desire to serve. Something happens when people invite you to witness their life’s stories. In this common space anything is possible. Thus, I believe in therapy.I believe that healing manifests within relationships. A therapeutic relationship is just another form of relationship. As a result, together, we unlock the barriers you have built against yourself. A mystical poet once said, “Your task is not to seek for love, but merely to seek and find all the barriers that you have built against it.” ― Rumi
+                </p>
+              </li>
+            </ul>
           </div>
-        </section>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-        <!-- Set up is above for the background image and the flower background -->
-        <section class="subscribe text-center">
-          <div class="container">
-            <h1><i class="fa fa-calendar-o"></i><span>Schedule an Appointment</span></h1>
-            <form action="#">
-              <input type="submit" name="" value="Today">
-            </form>
-          </div>
-        </section>
+<section class="swag text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <div id="testimonialSlider">
+          <ul class="slides">
+            <li>
+              <h1><i class="fa fa-quote-left"></i> In the field of MFT, the relational system fosters change. Biologist Bertalanffy. <i class="fa fa-quote-right"></i>
+                <span>-<em>Emily</em></span>
+              </h1>
+            </li>
+            <li>
+              <h1><i class="fa fa-quote-left"></i> I believe that healing manifests within relationships. <i class="fa fa-quote-right"></i>
+                <span>-<em>John</em></span>
+              </h1>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-        <section class="dark-bg text-center section-padding contact-wrap" id="contact">
-          <a href="#top" class="up-btn"><i class="fa fa-chevron-up"></i></a>
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
-                <h1 class="arrow">Contact</h1>
-              </div>
-            </div>
-            <div class="row contact-details">
-              <div class="col-md-4">
-                <div class="light-box box-hover">
-                  <a href="https://www.google.com/maps/place/1133+Broadway+%23529,+New+York,+NY+10010/@40.7437026,-73.991597,17z/data=!3m1!4b1!4m5!3m4!1s0x89c259a5d3242cd7:0x83034b325ff3a77c!8m2!3d40.7436986!4d-73.9894083" target="_blank">
-                  <h2><i class="fa fa-map-marker"></i><span class="contact-span">Address</span></h2>
-                  <p>1133 Broadway, Suite 529, New York, NY 10010</p>
-                </a>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="light-box box-hover">
-                  <a href="tel:212.203.2758">
-                    <h2><i class="fa fa-mobile"></i><span>Phone</span></h2>
-                    <p>212-203-2758</p>
-                  </a>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="light-box box-hover">
-                  <a href="mailto:sahar@cgctherapy.com">
-                    <h2><i class="fa fa-paper-plane"></i><span>Email</span></h2>
-                    <p>sahar@cgctherapy.com</p>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-12">
-                <div ng-cloak ng-if="!loading && serverMessage"><i class="fa fa-check"></i> {{serverMessage}}</div>
-              </div>
-              <form ng-submit="send(mail)">
-                <input pattern=".{4,25}" type="text" name="name" value="" placeholder="Full Name" required title="4 character minimum" ng-model="mail.name"><br />
-                <input pattern=".{4,}" type="email" name="_replyto" placeholder="Your email address" required title="4 character minimum" ng-model="mail.email"><br />
-                <textarea type='text' name="message" placeholder="Send me your message..." maxlength="300" minlength="5" required ng-model="mail.message"></textarea><br />
-                <input type="text" name="_gotcha" style="display:none" />
-                <input type="submit" name="submit" value="Send">
-              </form>
-              </div>
-            </div>
-          </div>
-        </section>
-        <footer>
-          <div class="container">
-            <div class="row">
-              <div class="col-md-6">
-                <ul class="legals">
-                  <li>&copy; 2015-2016 Common Ground Counseling MFT. All Rights Reserved.</li>
-                </ul>
-              </div>
-              <div class="col-md-6 credit">
-                 <p>Proudly Powered by <a href="http://www.brianbier.co/" target="_blank">www.brianbier.co</a></p>
-              </div>
-            </div>
-          </div>
-        </footer>
-    <!-- JS -->
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="js/assets/bootstrap.min.js"></script>
-    <script src="js/assets/waypoints.min.js"></script>
-    <script src="js/assets/scripts.js"></script> 
-    <script src="js/assets/jquery.flexslider.js"></script>
-    <script src="js/assets/modernizr.js"></script>
-    <script src="js/assets/jquery.fancybox.js"></script>
-    <script src="js/assets/jquery.fancybox-media.js"></script>
+<section class="intro section-padding" id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2 wp2">
+        <h1 class="arrow text-center">About</h1>
+        <p><a class="fancybox fancybox.image" href="img/sahar-khoshakhlagh.jpg" data-fancybox-group="gallery" title="Dr. Sahar Khoshakhlagh, Psy.D. "><img class="personal-image" src="img/sahar-khoshakhlagh.jpg" alt="Sahar khoshakhlagh"></a>Dr. Sahar Khoshakhlagh, Psy.D., LMFT (Dr. K or Sahar) is the founder of Common Ground Counseling Marriage &amp;Family Therapy, PLLC (also known as CGC). Dr. K was licensed as a Marriage and Family Therapist in 2009 and  established CGC as a private psychotherapy practice in New York City in 2010. In addition to her private practice, Dr. K currently oversees a large 150 bed- 24 hour, supervised, congregate facility providing psychiatric rehabilitation services to individuals with a wide range of mental health issues in downtown Brooklyn.</p>
+        <p>Her pursuit in the filed of Mental Health began with an aspiration of a Bachelor of Arts degree in Psychology with a minor in Peace Studies from California State University, Fullerton. Fueled by her passion, Dr. K  earned a Master of Arts degree in Applied Psychology from New York University (NYU). Discovering a unique interest in relational systems, Dr. K. furthered her education in Marital and Family Therapy; earning another Master of Arts degree in 2005 and a Doctorate of Psychology in 2013 from the California School of Professional Psychology (CSPP).</p>
+        <p>Having a keen interest in intimate relationships, Dr. K wrote her dissertation on Adult Attachment as a Predictor of Intimate Relationships and Sexual Behavior. Dr. K presented her dissertation at the National Council on Family Relations Conference in 2013 and again at the American Association for Marriage and Family Therapy Conference in 2014. Furthermore, in 2014, Dr. K earned an Honorary Citation from the Office of the President of the Borough of Brooklyn for Dr. K’s assistance in the implementation of Trauma-Informed Care. Trauma-Informed Care (TIC) is an organizational framework that involves understanding, recognizing, and responding to the effects of all types of trauma. Currently, Dr. K is collaborating with the New York City Communities  for Crisis Intervention Teams to re-build a positive relationship between the NYPD and people with mental health disabilities.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <script src="libs/angular/angular.min.js"></script>
-    <script src="libs/angular-route/angular-route.js"></script>
+<!-- Set up is above for the background image and the flower background -->
+<section class="subscribe text-center">
+  <div class="container">
+    <h1><i class="fa fa-calendar-o"></i><span>Schedule an Appointment</span></h1>
+    <form action="#">
+      <input type="submit" name="" value="Today">
+    </form>
+  </div>
+</section>
 
-    <!-- ANGULAR CUSTOM -->
-    <script src="js/app.js"></script>
-    <script src="js/appRoutes.js"></script>
-    <script src="js/controllers/MainController.js"></script>
+<section class="dark-bg text-center section-padding contact-wrap" id="contact">
+  <a href="#top" class="up-btn"><i class="fa fa-chevron-up"></i></a>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1 class="arrow">Contact</h1>
+      </div>
+    </div>
+    <div class="row contact-details">
+      <div class="col-md-4">
+        <div class="light-box box-hover">
+          <a href="https://www.google.com/maps/place/1133+Broadway+%23529,+New+York,+NY+10010/@40.7437026,-73.991597,17z/data=!3m1!4b1!4m5!3m4!1s0x89c259a5d3242cd7:0x83034b325ff3a77c!8m2!3d40.7436986!4d-73.9894083" target="_blank">
+            <h2><i class="fa fa-map-marker"></i><span class="contact-span">Address</span></h2>
+            <p>1133 Broadway, Suite 529, New York, NY 10010</p>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="light-box box-hover">
+          <a href="tel:212.203.2758">
+            <h2><i class="fa fa-mobile"></i><span>Phone</span></h2>
+            <p>212-203-2758</p>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="light-box box-hover">
+          <a href="mailto:sahar@cgctherapy.com">
+            <h2><i class="fa fa-paper-plane"></i><span>Email</span></h2>
+            <p>sahar@cgctherapy.com</p>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div ng-cloak ng-if="!loading && serverMessage"><i class="fa fa-check"></i> {{serverMessage}}</div>
+      </div>
+      <form ng-submit="send(mail)">
+        <input pattern=".{4,25}" type="text" name="name" value="" placeholder="Full Name" required title="4 character minimum" ng-model="mail.name"><br />
+        <input pattern=".{4,}" type="email" name="_replyto" placeholder="Your email address" required title="4 character minimum" ng-model="mail.email"><br />
+        <textarea type='text' name="message" placeholder="Send me your message..." maxlength="300" minlength="5" required ng-model="mail.message"></textarea><br />
+        <input type="text" name="_gotcha" style="display:none" />
+        <input type="submit" name="submit" value="Send">
+      </form>
+    </div>
+  </div>
+</div>
+</section>
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <ul class="legals">
+          <li>&copy; 2015-2016 Common Ground Counseling MFT. All Rights Reserved.</li>
+        </ul>
+      </div>
+      <div class="col-md-6 credit">
+        <p>Proudly Powered by <a href="http://www.brianbier.co/" target="_blank">www.brianbier.co</a></p>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- JS -->
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/assets/bootstrap.min.js"></script>
+<script src="js/assets/waypoints.min.js"></script>
+<script src="js/assets/scripts.js"></script> 
+<script src="js/assets/jquery.flexslider.js"></script>
+<script src="js/assets/modernizr.js"></script>
+<script src="js/assets/jquery.fancybox.js"></script>
+<script src="js/assets/jquery.fancybox-media.js"></script>
+
+<script src="libs/angular/angular.min.js"></script>
+<script src="libs/angular-route/angular-route.js"></script>
+
+<!-- ANGULAR CUSTOM -->
+<script src="js/app.js"></script>
+<script src="js/appRoutes.js"></script>
+<script src="js/controllers/MainController.js"></script>
 </body>
 </html>
