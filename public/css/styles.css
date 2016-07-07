@@ -1035,7 +1035,7 @@ ul.social-buttons li:last-child {
 }
 .social-btn:hover,
 .social-btn:focus {
-    background: #3dc9b3;
+    background:  rgba(71, 162, 198,1);
     color: #fff;
 }
 .social {
@@ -1235,6 +1235,9 @@ Waypoints
     padding:10px;
 }
 
+.flex-viewport p a:hover{
+    color: rgba(71, 162, 198,1);
+}
 
 
 

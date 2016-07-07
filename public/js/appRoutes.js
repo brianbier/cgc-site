@@ -2,8 +2,7 @@ app.config(['$routeProvider','$locationProvider',function($routeProvider,$locati
 $routeProvider
 //HomePage
 .when('/',{
-  controller: 'MainController',
-  templateUrl: 'views/cgctherapy.html'
+  controller: 'MainController'
 })
 .otherwise({
   redirectTo: '/'

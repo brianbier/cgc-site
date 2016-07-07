@@ -1,6 +1,13 @@
 
-app.controller('MainController',['$scope','$http',function($scope,$http){
+app.controller('MainController',['$scope','$http','services',function($scope,$http,services){
   $scope.post = 'Hello'
+  $scope.services = services.services
+  // $scope.service = services.services[$routeParams.id]
+  console.log($scope.service)
+  $scope.showId = function(event){
+    var index = $(event.target).attr('id');
+     return $scope.found = services.services[index]
+  }
 
   $scope.loading = false;
   $scope.send = function(mail){
