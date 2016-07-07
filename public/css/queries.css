@@ -63,6 +63,9 @@
 .flex-viewport .flex-control-nav{
     margin-top: -59%;
 }
+#Setmore_button_iframe img{
+    display: none;
+}
 }
 /* Bootstrap 990px Breakpoint to 480px */
 
@@ -106,7 +109,9 @@
     .slider{
         display: none;
     }
-
+#Setmore_button_iframe img{
+    display: none;
+}
 }
 
 
