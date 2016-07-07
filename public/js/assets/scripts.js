@@ -184,7 +184,16 @@ $(window).load(function() {
       $.waypoints('refresh');
     }
   });
-
+  $('#mobileTeamSlider').flexslider({
+    animation: "slide",
+    directionNav: false,
+    controlNav: true,
+    touch: true,
+    pauseOnHover: true,
+    start: function() {
+      $.waypoints('refresh');
+    }
+  });
 });
 
 /***************** FancyBox ******************/
