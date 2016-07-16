@@ -309,12 +309,12 @@
       <div class="col-md-12">
         <div ng-cloak ng-if="!loading && serverMessage"><i class="fa fa-check"></i> {{serverMessage}}</div>
       </div>
-      <form ng-submit="send(mail)">
+      <form>
         <input pattern=".{4,25}" type="text" name="name" value="" placeholder="Full Name" required title="4 character minimum" ng-model="mail.name"><br />
         <input pattern=".{4,}" type="email" name="_replyto" placeholder="Your email address" required title="4 character minimum" ng-model="mail.email"><br />
         <textarea type='text' name="message" placeholder="Send me your message..." maxlength="300" minlength="5" required ng-model="mail.message"></textarea><br />
-        <input type="text" name="_gotcha" style="display:none" />
-        <input type="submit" name="submit" value="Send">
+        <input type="text" name="_gotcha" style="display:none;" />
+        <input type="submit" name="submit" ng-click="send(mail)" value="Send">
       </form>
     </div>
   </div>
