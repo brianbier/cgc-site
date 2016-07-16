@@ -12,7 +12,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
   // Here we require the prerender middleware that will handle requests from Search Engine crawlers
   // We set the token only if we're using the Prerender.io service
-app.use(require('prerender-node').set('prerenderToken', 'w4ww74MqTwznrpvNJXSi')
+app.use(require('prerender-node').set('prerenderToken', 'w4ww74MqTwznrpvNJXSi'));
 // .set('prerenderServiceUrl', 'http://localhost:3000'));
 
 //ROUTES
