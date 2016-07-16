@@ -1,6 +1,6 @@
 
 app.controller('MainController',['$scope','$http','services',function($scope,$http,services){
-  $scope.post = 'Hello'
+  $scope.post = 'Hello Brian'
   $scope.services = services.services
   // $scope.service = services.services[$routeParams.id]
   console.log($scope.service)
