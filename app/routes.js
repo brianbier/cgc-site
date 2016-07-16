@@ -7,7 +7,7 @@ module.exports = function(app){
   app.post('/sendmail', function(req, res){
       var options = {
           auth: {
-              api_key: 'API KEY'
+              api_key: process.env.EMAIL_TOKEN
           }
       }
       var mailer = nodemailer.createTransport(sgTransport(options));
