@@ -4,6 +4,7 @@ var sgTransport = require('nodemailer-sendgrid-transport');
 module.exports = function(app){
 
     // Sendmail route
+    // New Token
   app.post('/sendmail', function(req, res){
       var options = {
           auth: {
