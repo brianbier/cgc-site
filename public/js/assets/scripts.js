@@ -221,14 +221,17 @@ $(document).ready(function(){
           }
         });
 
-$(".gallerypdf").fancybox({
-openEffect: 'elastic',
-closeEffect: 'elastic',
-autoSize: true,
-type: 'iframe',
-iframe: {
-preload: false // fixes issue with iframe and IE
-}
-});
-  
+        $(".gallerypdf").fancybox({
+        openEffect: 'elastic',
+        closeEffect: 'elastic',
+        autoSize: true,
+        type: 'iframe',
+        iframe: {
+        preload: false // fixes issue with iframe and IE
+        }
+        });
+         $(".dropdown-toggle").dropdown();
+          
 })
+
+
