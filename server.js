@@ -18,7 +18,7 @@ app.use(require('prerender-node').set('prerenderToken', 'w4ww74MqTwznrpvNJXSi').
 require('./app/routes')(app);
 
 //listening port to start
-app.listen(port);
+app.listen(https://cgc-therapy.herokuapp.com/);
 
 console.log('CGC is up and running on port ' + port);
 
