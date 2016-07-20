@@ -2,10 +2,11 @@
   "name": "cgc-website",
   "main": "server.js",
   "dependencies": {
+    "angular": "^1.5.7",
+    "body-parser": "^1.14.2",
     "express": "~4.5.1",
-    "prerender-node": "latest",
     "nodemailer": "^2.1.0",
     "nodemailer-sendgrid-transport": "^0.2.0",
-    "body-parser": "^1.14.2"
+    "prerender-node": "latest"
   }
 }
