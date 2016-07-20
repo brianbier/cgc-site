@@ -2,7 +2,8 @@ app.config(['$routeProvider','$locationProvider',function($routeProvider,$locati
 $routeProvider
 //HomePage
 .when('/',{
-  controller: 'MainController'
+  controller: 'MainController',
+  templateUrl: 'index.html'
 })
 .otherwise({
   redirectTo: '/'
