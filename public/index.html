@@ -355,5 +355,9 @@
 <script src="js/appRoutes.js"></script>
 <script src="js/controllers/MainController.js"></script>
 <script src="js/services/services.js"></script>
+  <script>
+    // Including this code will ensure that the page is not rendered until all JavaScript has finished executing
+    window.prerenderReady = false;
+  </script>
 </body>
 </html>
