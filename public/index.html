@@ -23,6 +23,10 @@
 <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
+  <script>
+    // Including this code will ensure that the page is not rendered until all JavaScript has finished executing
+    window.prerenderReady = false;
+  </script>
 </head>
 <body id="top">
 <a id="Setmore_button_iframe" style="float:none; position: fixed; right: -2px; top: 25%; display: block; z-index: 20000" href="https://my.setmore.com/bookingpage/92adb7be-b8d8-4ab8-9270-60a4db35f3f7"><img border="none" src="https://my.setmore.com/images/bookappt/Setmore-Book-Now.png" alt="Book an appointment with Common Ground Counseling Marriage & Family Therapy using SetMore" /></a>
@@ -355,9 +359,5 @@
 <script src="js/appRoutes.js"></script>
 <script src="js/controllers/MainController.js"></script>
 <script src="js/services/services.js"></script>
-  <script>
-    // Including this code will ensure that the page is not rendered until all JavaScript has finished executing
-    window.prerenderReady = false;
-  </script>
 </body>
 </html>
