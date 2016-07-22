@@ -1,6 +1,6 @@
-
 app.controller('MainController',['$scope','$http','services',function($scope,$http,services){
   $scope.post = 'Hello Brian'
+   console.log('controllers loaded');
   $scope.services = services.services
   // $scope.service = services.services[$routeParams.id]
   $scope.showId = function(event){
@@ -16,7 +16,7 @@ app.controller('MainController',['$scope','$http','services',function($scope,$ht
       to: 'briansbier@gmail.com',
       subject: 'New Message from website user',
       text: mail.message
-    }).then(res=>{
+    }).then(res{
       $scope.loading = false;
       $scope.serverMessage = "Thank you " + mail.name + " I will be with you shortly!";
       mail.name = ''
