@@ -1,0 +1,18 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# CREATOR
+
+    BRIAN BIER - www.brianbier.co
+
+    Twitter -- @briansbier
+    Instagram -- briansbier
+    Linkedin -- https://www.linkedin.com/in/brianbier
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    AngularJs
+    Animate Css
+    Bootstrap 3
+    jQuery, FancyBox, FlexSlider

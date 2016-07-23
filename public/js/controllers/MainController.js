@@ -1,6 +1,7 @@
 app.controller('MainController',['$scope','$http','services',function($scope,$http,services){
+  console.log('controllers loaded');
   $scope.post = 'Hello Brian'
-   console.log('controllers loaded');
+  $scope.date = Date.now()
   $scope.services = services.services
   // $scope.service = services.services[$routeParams.id]
   $scope.showId = function(event){
