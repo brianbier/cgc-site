@@ -379,9 +379,9 @@ www.brianbier.co -->
         <div ng-cloak ng-if="!loading && serverMessage"><i class="fa fa-check"></i> {{serverMessage}}</div>
       </div>
       <form ng-click="send(mail)">
-        <input pattern=".{4,25}" type="text" name="name" value="" placeholder="Full Name" required title="4 character minimum" ng-model="mail.name"><br />
-        <input pattern=".{4,}" type="email" name="_replyto" placeholder="Your email address" required title="4 character minimum" ng-model="mail.email"><br />
-        <textarea type='text' name="message" placeholder="Send me your message..." maxlength="300" minlength="5" required ng-model="mail.message"></textarea><br />
+        <input pattern=".{4,25}" type="text" name="name" value="" placeholder="Name" required title="4 character minimum" ng-model="mail.name"><br />
+        <input pattern=".{4,}" type="email" name="_replyto" placeholder="Email" required title="4 character minimum" ng-model="mail.email"><br />
+        <textarea type='text' name="message" placeholder="Type your Message..." minlength="5" required ng-model="mail.message"></textarea><br />
         <input type="text" name="_gotcha" style="display:none;" />
         <input type="submit" name="submit" value="Send">
       </form>
@@ -399,7 +399,7 @@ www.brianbier.co -->
         </ul>
       </div>
       <div class="col-md-6 credit">
-        <p>Proudly Powered by <a href="http://www.brianbier.co/" target="_blank">www.brianbier.co</a></p>
+        <p>Proudly Powered by <a href="http://www.brianbier.co/" target="_blank">Brian Bier</a></p>
       </div>
     </div>
   </div>

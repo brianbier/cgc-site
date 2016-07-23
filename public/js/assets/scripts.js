@@ -1,66 +1,66 @@
 /***************** Waypoints ******************/
 
-$(document).ready(function() {
+$(document).ready(function () {
 
-  $('.wp1').waypoint(function() {
-    $('.wp1').addClass('animated fadeInLeft');
+  $(".wp1").waypoint(function () {
+    $(".wp1").addClass("animated fadeInLeft");
   }, {
-    offset: '75%'
+    offset: "75%"
   });
-  $('.wp2').waypoint(function() {
-    $('.wp2').addClass('animated fadeInUp');
+  $(".wp2").waypoint(function () {
+    $(".wp2").addClass("animated fadeInUp");
   }, {
-    offset: '75%'
+    offset: "75%"
   });
-  $('.wp3').waypoint(function() {
-    $('.wp3').addClass('animated fadeInDown');
+  $(".wp3").waypoint(function () {
+    $(".wp3").addClass("animated fadeInDown");
   }, {
-    offset: '55%'
+    offset: "55%"
   });
-  $('.wp4').waypoint(function() {
-    $('.wp4').addClass('animated fadeInDown');
+  $(".wp4").waypoint(function () {
+    $(".wp4").addClass("animated fadeInDown");
   }, {
-    offset: '75%'
+    offset: "75%"
   });
-  $('.wp5').waypoint(function() {
-    $('.wp5').addClass('animated fadeInUp');
+  $(".wp5").waypoint(function () {
+    $(".wp5").addClass("animated fadeInUp");
   }, {
-    offset: '75%'
+    offset: "75%"
   });
-  $('.wp6').waypoint(function() {
-    $('.wp6').addClass('animated fadeInDown');
+  $(".wp6").waypoint(function () {
+    $(".wp6").addClass("animated fadeInDown");
   }, {
-    offset: '75%'
+    offset: "75%"
   });
 
 });
 
 /***************** Slide-In Nav ******************/
 
-$(window).load(function() {
+$(window).load(function () {
 
-  $('.nav_slide_button').click(function() {
-    $('.pull').slideToggle();
+  $(".nav_slide_button").click(function() {
+    $(".pull").slideToggle();
   });
 });
 
         /***************** Nav Transformicon ******************/
 
         /* When user clicks the Icon */
-        $(".nav-toggle").click(function() {
+        $(".nav-toggle").click(function () {
             $(this).toggleClass("active");
             $(".navigation").toggleClass("open");
             event.preventDefault();
         });
 
         /* When user clicks a link */
-        $(".overlay ul li a").click(function() {
+        $(".overlay ul li a").click(function () {
             $(".nav-toggle").toggleClass("active");
             $(".navigation").toggleClass("open");
         });
 
         /* When user clicks outside */
-        $(".overlay").click(function() {
+        $(".overlay").click(function () {
             $(".nav-toggle").toggleClass("active");
             $(".navigation").toggleClass("open");
         });
@@ -82,13 +82,13 @@ $(window).load(function() {
 
 $(function() {
 
-  $('a[href*=\\#]:not([href=\\#])').click(function() {
-    if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
+  $("a[href*=\\#]:not([href=\\#])").click(function() {
+    if (location.pathname.replace(/^\//, ") === this.pathname.replace(/^\//, ") && location.hostname === this.hostname) {
 
       var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      target = target.length ? target : $("[name=" + this.hash.slice(1) + "]");
       if (target.length) {
-        $('html,body').animate({
+        $("html,body").animate({
           scrollTop: target.offset().top
         }, 2000);
         return false;
@@ -140,40 +140,40 @@ $(document).ready(function(){
 
 $(window).load(function() {
 
-  $('#portfolioSlider').flexslider({
+  $("#portfolioSlider").flexslider({
     animation: "slide",
     directionNav: false,
     controlNav: true,
     touch: true,
     pauseOnHover: true,
     start: function() {
-      $.waypoints('refresh');
+      $.waypoints("refresh");
     }
   });
 
-  $('#servicesSlider').flexslider({
+  $("#servicesSlider").flexslider({
     animation: "slide",
     directionNav: false,
     controlNav: true,
     touch: true,
     pauseOnHover: true,
     start: function() {
-      $.waypoints('refresh');
+      $.waypoints("refresh");
     }
   });
 
-  $('#teamSlider').flexslider({
+  $("#teamSlider").flexslider({
     animation: "slide",
     directionNav: false,
     controlNav: true,
     touch: true,
     pauseOnHover: true,
     start: function() {
-      $.waypoints('refresh');
+      $.waypoints("refresh");
     }
   });
 
-  $('#testimonialSlider').flexslider({
+  $("#testimonialSlider").flexslider({
     animation: "slide",
     directionNav: false,
     controlNav: true,
@@ -181,17 +181,17 @@ $(window).load(function() {
     pauseOnHover: true,
     controlNav: false, 
     start: function() {
-      $.waypoints('refresh');
+      $.waypoints("refresh");
     }
   });
-  $('#mobileTeamSlider').flexslider({
+  $("#mobileTeamSlider").flexslider({
     animation: "slide",
     directionNav: false,
     controlNav: true,
     touch: true,
     pauseOnHover: true,
     start: function() {
-      $.waypoints('refresh');
+      $.waypoints("refresh");
     }
   });
 });
@@ -202,17 +202,17 @@ $(document).ready(function(){
        *  Simple image gallery. Uses default settings
        */
 
-      $('.fancybox').fancybox();
+      $(".fancybox").fancybox();
       /*
        *  Media helper. Group items, disable animations, hide arrows, enable media and button helpers.
       */
-      $('.fancybox-media')
-        .attr('rel', 'media-gallery')
+      $(".fancybox-media")
+        .attr("rel", "media-gallery")
         .fancybox({
-          openEffect : 'none',
-          closeEffect : 'none',
-          prevEffect : 'none',
-          nextEffect : 'none',
+          openEffect : "none",
+          closeEffect : "none",
+          prevEffect : "none",
+          nextEffect : "none",
 
           arrows : false,
           helpers : {
@@ -222,16 +222,16 @@ $(document).ready(function(){
         });
 
         $(".gallerypdf").fancybox({
-        openEffect: 'elastic',
-        closeEffect: 'elastic',
+        openEffect: "elastic",
+        closeEffect: "elastic",
         autoSize: true,
-        type: 'iframe',
+        type: "iframe",
         iframe: {
         preload: false // fixes issue with iframe and IE
         }
         });
          $(".dropdown-toggle").dropdown();
           
-})
+});
 
 
