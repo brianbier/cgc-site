@@ -1,14 +1,21 @@
-/* 320px (iPhone) */
+/* 320px (theory-section) */
 
 @media screen and (max-width: 320px) {}
 /* 480px (WVGA - Low End Windows Phone) */
 
 @media screen and (max-width: 480px) {
+    a,i{
+   outline: 0;
+   outline: none;
+}
+a:active,a:focus {
+    outline: none;
+}
     .wrapper {
         background: #f3f5f8;
         height: 640px;
     }
-    .iphone {
+    .theory-section {
         display: none;
     }
     .fluid-white {
@@ -20,7 +27,7 @@
     .light-box {
         margin-bottom: 30px;
     }
-    .legals {
+    .legal {
         text-align: center;
         margin: 0;
         padding: 0;
@@ -28,19 +35,19 @@
     .credit {
         text-align: center;
     }
-    .swag h1 {
+    .testimonial h1 {
     color: #fff;
     font-size: 20px;
     text-transform: uppercase;
     letter-spacing: 5px;
     padding-top: 10%;
 }
-    .swag h1 span {
+    .testimonial h1 span {
     display: block;
     font-size: 15px;
     margin-top: 20px;
 }
-.learn-more-btn {
+.schedule-an-appointment {
     background: rgba(71, 162, 198,0.7);
     padding: 20px 40px;
     border-radius: 5px;
@@ -66,11 +73,26 @@
 #Setmore_button_iframe img{
     display: none;
 }
+.flower {
+    background: url(../img/purple_flower_mobile.jpg) center center no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
+}
+.testimonial {
+    background: url(../img/blue-flower-mobile.jpg) center center no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
+}
+
 }
 /* Bootstrap 990px Breakpoint to 480px */
 
 @media screen and (min-width: 480px) and (max-width: 991px) {
-    .iphone {
+    .theory-section {
         display: none;
     }
     .fluid-white {
@@ -86,7 +108,7 @@
     .light-box {
         margin-bottom: 30px;
     }
-    .legals {
+    .legal {
         text-align: center;
         margin: 0;
         padding: 0;
@@ -94,11 +116,11 @@
     .credit {
         text-align: center;
     }
-    .subscribe h1 {
+    .schedule h1 {
         color: #fff;
         margin-bottom: 40px;
     }
-    .subscribe h1 span {
+    .schedule h1 span {
         display: block;
         font-size: 25px;
         text-transform: uppercase;
@@ -122,13 +144,13 @@
     .wp3 {
         /*background-position: 50px 0;*/
     }
-    .swag {
+    .testimonial {
         background-attachment: scroll;
     }
-    .subscribe {
+    .schedule {
         background-attachment: scroll;
     }
-       .subscribe h1 span {
+       .schedule h1 span {
         display: block;
         font-size: 25px;
         text-transform: uppercase;
@@ -157,7 +179,7 @@
       color: #8c9398;
       margin: .5em 0 2em 0;
     }
-       .subscribe h1 span {
+       .schedule h1 span {
         display: block;
         font-size: 25px;
         text-transform: uppercase;

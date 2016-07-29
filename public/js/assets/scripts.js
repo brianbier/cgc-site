@@ -5,12 +5,13 @@ $(document).ready(function () {
   $(".wp1").waypoint(function () {
     $(".wp1").addClass("animated fadeInLeft");
   }, {
-    offset: "75%"
+    offset: "65%"
   });
+
   $(".wp2").waypoint(function () {
     $(".wp2").addClass("animated fadeInUp");
   }, {
-    offset: "75%"
+    offset: "85%"
   });
   $(".wp3").waypoint(function () {
     $(".wp3").addClass("animated fadeInDown");
@@ -32,7 +33,6 @@ $(document).ready(function () {
   }, {
     offset: "75%"
   });
-
 });
 
 /***************** Slide-In Nav ******************/
@@ -162,7 +162,7 @@ $(window).load(function() {
     }
   });
 
-  $("#teamSlider").flexslider({
+  $("#serviceSlider").flexslider({
     animation: "slide",
     directionNav: false,
     controlNav: true,
@@ -184,7 +184,7 @@ $(window).load(function() {
       $.waypoints("refresh");
     }
   });
-  $("#mobileTeamSlider").flexslider({
+  $("#mobileserviceSlider").flexslider({
     animation: "slide",
     directionNav: false,
     controlNav: true,
@@ -233,5 +233,3 @@ $(document).ready(function(){
          $(".dropdown-toggle").dropdown();
           
 });
-
-
