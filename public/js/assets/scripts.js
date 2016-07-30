@@ -151,6 +151,12 @@ $(window).load(function() {
     }
   });
 
+  $('.flexslider').flexslider({
+    animation: "slide",
+    controlNav: true,
+    touch: true,
+  });
+
   $("#servicesSlider").flexslider({
     animation: "slide",
     directionNav: false,

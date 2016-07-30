@@ -155,7 +155,7 @@ a {
 }
 a:focus,
 a:hover {
-    color: #3dc9b3;
+    color:#242830;
     text-decoration: none
 }
 p {
@@ -425,6 +425,7 @@ h1.arrow {
 }
 .fluid-white {
     background: #fff;
+    text-align: center;
     float: right;
     z-index: 2
 }
@@ -470,7 +471,7 @@ h1.arrow {
 .down-arrow-btn:focus,
 .down-arrow-btn:hover {
     color: #fff;
-    background: rgba(71, 162, 198, 1)
+    background: rgba(71, 162, 198, 1);
 }
 .personal-image {
     float: right;
